@@ -1,0 +1,35 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: tru_well_dev
+  username: postgres
+  password: password123
+  host: localhost
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: tru_well_test
+  username: postgres
+  password: password123
+  host: localhost
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password123
+  database: add_ror_staging
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: password123
+  database: add_ror_prod
+  host: localhost

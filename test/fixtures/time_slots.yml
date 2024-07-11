@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor_availability: one
+  start_time: 2024-04-09 14:32:13
+  end_time: 2024-04-09 14:32:13
+  status: MyString
+  user: one
+
+two:
+  doctor_availability: two
+  start_time: 2024-04-09 14:32:13
+  end_time: 2024-04-09 14:32:13
+  status: MyString
+  user: two
